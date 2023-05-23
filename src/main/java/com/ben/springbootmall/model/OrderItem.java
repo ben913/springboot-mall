@@ -9,6 +9,10 @@ public class OrderItem {
 
     private Integer amount;
 
+    private  String prodcutName;
+
+    private  String imageUrl;
+
     public Integer getOrderItemId() {
         return orderItemId;
     }
@@ -47,5 +51,21 @@ public class OrderItem {
 
     public void setAmount(Integer amount) {
         this.amount = amount;
+    }
+
+    public String getProdcutName() {
+        return prodcutName;
+    }
+
+    public void setProdcutName(String prodcutName) {
+        this.prodcutName = prodcutName;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
